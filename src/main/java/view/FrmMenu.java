@@ -25,6 +25,7 @@ public class FrmMenu extends javax.swing.JFrame {
         mniAbourt.addActionListener(c);
         mniUser.addActionListener(c);
         mniCreative.addActionListener(c);
+        mniUser.addActionListener(c);
     }
 
     /**
@@ -56,7 +57,6 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setUndecorated(true);
         setResizable(false);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/menuP.png"))); // NOI18N

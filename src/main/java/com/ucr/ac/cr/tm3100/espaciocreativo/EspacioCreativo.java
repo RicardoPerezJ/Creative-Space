@@ -4,7 +4,9 @@
 
 package com.ucr.ac.cr.tm3100.espaciocreativo;
 
-import controller.UserController;
+
+import controller.MenuController;
+
 
 /**
  *
@@ -13,6 +15,6 @@ import controller.UserController;
 public class EspacioCreativo {
 
     public static void main(String[] args) {
-        new UserController();
+        new MenuController();
     }
 }

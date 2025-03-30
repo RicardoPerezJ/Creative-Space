@@ -1,10 +1,17 @@
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\com\ucr\ac\cr\tm3100\espaciocreativo\EspacioCreativo.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\controller\CreativeSpaceController.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\controller\MenuController.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\controller\UserController.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\CreativeSpace.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\CreativeSpaceMem.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\CreativeSpaceRe.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\User.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\UserDAO.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\Model\UserRegister.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\DialogCreativeSpace.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\DialogUser.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\FrmMenu.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\FrmReport.java
+C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\FrmReportCreativeSpace.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\FrmUser.java
 C:\Users\ap949\OneDrive - Universidad de Costa Rica\Progra 3\EspacioCreativo\src\main\java\view\PanelButton.java

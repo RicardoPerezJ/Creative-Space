@@ -28,14 +28,12 @@ public class UserController implements ActionListener, MouseListener, KeyListene
     private PanelButton panelButton;
     private FrmReport frmReport;
     private UserRegister userRegister;
-    private FrmMenu menu;
     private int option = 0;
     private User userSearch = null;
 
     public UserController() {
         this.userRegister = new UserRegister();
         this.frmReport = new FrmReport();
-        this.menu = new FrmMenu();
 
         //Metodo encargadod e refrescar la tabla
         this.frmReport.setDataTable(this.userRegister.getMatrix(),
@@ -48,17 +46,18 @@ public class UserController implements ActionListener, MouseListener, KeyListene
         this.panelButton = this.frmReport.getPanelButton();
         this.panelButton.setListen(this);
         this.dialogUser.setListen(this);
-        this.menu.listenMenu(this);
-        
-        this.menu.setVisible(true);
         
         
 
     }
+    
+    public FrmReport getFrmReport(){
+        return this.frmReport;
+    }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.menu.requestFocusInWindow();
+        this.frmReport.requestFocusInWindow();
         switch (e.getActionCommand()) {
             case "Add":
                 this.option = 1;
@@ -133,14 +132,6 @@ public class UserController implements ActionListener, MouseListener, KeyListene
                 this.dialogUser.setEnabledID(false);
                 break;
 
-            case "User":
-                this.frmReport.setVisible(true);
-
-                System.out.println("Escuchado");
-                break;
-                
-                
-
         }
 
     }
@@ -180,7 +171,6 @@ public class UserController implements ActionListener, MouseListener, KeyListene
         this.userSearch.setEmail(userRow[3]);
         this.userSearch.setTelephone(userRow[4]);
         this.userSearch.setDepartment(userRow[5]);
-        //No estoy seguro de si sirve o no
 
     }
 
