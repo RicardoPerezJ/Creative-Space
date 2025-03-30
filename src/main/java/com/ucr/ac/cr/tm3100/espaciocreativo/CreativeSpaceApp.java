@@ -12,7 +12,7 @@ import controller.MenuController;
  *
  * @author Ricardo
  */
-public class EspacioCreativo {
+public class CreativeSpaceApp {
 
     public static void main(String[] args) {
         new MenuController();

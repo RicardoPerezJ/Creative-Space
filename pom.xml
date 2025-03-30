@@ -8,6 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
-        <exec.mainClass>com.ucr.ac.cr.tm3100.espaciocreativo.EspacioCreativo</exec.mainClass>
+        <exec.mainClass>com.ucr.ac.cr.tm3100.espaciocreativo.CreativeSpaceApp</exec.mainClass>
     </properties>
+    <name>CreativeSpaceApp</name>
 </project>
