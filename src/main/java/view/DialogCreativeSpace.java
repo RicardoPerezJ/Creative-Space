@@ -212,7 +212,7 @@ public class DialogCreativeSpace extends javax.swing.JDialog {
     }//GEN-LAST:event_txtFIDActionPerformed
 
     private void jBtnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnOkActionPerformed
-        System.out.println("Escuchando");
+
         // TODO add your handling code here:
     }//GEN-LAST:event_jBtnOkActionPerformed
 

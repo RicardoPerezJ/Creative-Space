@@ -82,7 +82,7 @@ public class FrmReport extends javax.swing.JFrame {
         txtFilterID = new javax.swing.JTextField();
         panelButton1 = new view.PanelButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         tblReport.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

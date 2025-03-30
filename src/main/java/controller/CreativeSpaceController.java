@@ -77,6 +77,10 @@ public class CreativeSpaceController implements KeyListener, ActionListener, Mou
     public FrmReportCreativeSpace getFrmReport(){
         return reportCreativeSpace;
     }
+    
+public CreativeSpaceRe getCreativeSpaceRe(){
+    return this.creativeSpaceRe;
+}
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -123,7 +127,7 @@ public class CreativeSpaceController implements KeyListener, ActionListener, Mou
                 
                 break;
             case "Close":
-                System.exit(0);
+                this.reportCreativeSpace.dispose();
                 
                 break;
                 

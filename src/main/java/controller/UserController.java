@@ -51,6 +51,10 @@ public class UserController implements ActionListener, MouseListener, KeyListene
 
     }
     
+    public UserRegister getUserRegister(){
+        return this.userRegister;
+    }
+    
     public FrmReport getFrmReport(){
         return this.frmReport;
     }
@@ -87,7 +91,7 @@ public class UserController implements ActionListener, MouseListener, KeyListene
                 break;
 
             case "Close":
-                System.exit(0);
+                this.frmReport.dispose();
                 break;
 
             case "Ok":

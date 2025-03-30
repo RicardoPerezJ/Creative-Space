@@ -59,12 +59,12 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniCreativeActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="Tables">
+            <MenuItem class="javax.swing.JMenuItem" name="mniTables">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Tables"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TablesActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniTablesActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>

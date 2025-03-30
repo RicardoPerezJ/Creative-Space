@@ -1,5 +1,6 @@
 Model\CreativeSpaceMem.class
 view\DialogUser.class
+view\FrmTableReport.class
 controller\UserController.class
 view\FrmReport.class
 view\DialogCreativeSpace.class

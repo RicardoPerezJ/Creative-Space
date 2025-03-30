@@ -4,10 +4,13 @@
  */
 package controller;
 
+import Model.CreativeSpace;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import view.FrmMenu;
 import view.FrmReportCreativeSpace;
+import view.FrmTableReport;
+import Model.User;
 
 /**
  *
@@ -17,12 +20,14 @@ public class MenuController implements ActionListener{
     private FrmMenu fm;
     private CreativeSpaceController creativeSpaceController;
     private UserController userController;
+    private FrmTableReport frmTableReport;
 
 
     public MenuController() {
         creativeSpaceController = new CreativeSpaceController();
         userController = new UserController();
         
+        frmTableReport = new FrmTableReport();
         
         fm = new FrmMenu();
         
@@ -49,6 +54,13 @@ public class MenuController implements ActionListener{
                     
                 case "Creative":
                     creativeSpaceController.getFrmReport().setVisible(true);
+                    break;
+                    
+                case "Tables":
+                    frmTableReport.setDataTableCreativeSp(creativeSpaceController.getCreativeSpaceRe().getMatrix(), CreativeSpace.LABEL_CREATIVESPACES);
+                    frmTableReport.setDataTableUser(userController.getUserRegister().getMatrix(), User.LABEL_USERS);
+                    
+                    frmTableReport.setVisible(true);
         }
     }
     

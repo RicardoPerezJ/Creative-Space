@@ -26,6 +26,7 @@ public class FrmMenu extends javax.swing.JFrame {
         mniUser.addActionListener(c);
         mniCreative.addActionListener(c);
         mniUser.addActionListener(c);
+        mniTables.addActionListener(c);
     }
 
     /**
@@ -48,7 +49,7 @@ public class FrmMenu extends javax.swing.JFrame {
         mnModuls = new javax.swing.JMenu();
         mniUser = new javax.swing.JMenuItem();
         mniCreative = new javax.swing.JMenuItem();
-        Tables = new javax.swing.JMenuItem();
+        mniTables = new javax.swing.JMenuItem();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -86,13 +87,13 @@ public class FrmMenu extends javax.swing.JFrame {
         });
         mnModuls.add(mniCreative);
 
-        Tables.setText("Tables");
-        Tables.addActionListener(new java.awt.event.ActionListener() {
+        mniTables.setText("Tables");
+        mniTables.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TablesActionPerformed(evt);
+                mniTablesActionPerformed(evt);
             }
         });
-        mnModuls.add(Tables);
+        mnModuls.add(mniTables);
 
         jMenuBar2.add(mnModuls);
 
@@ -116,9 +117,9 @@ public class FrmMenu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_mniCreativeActionPerformed
 
-    private void TablesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TablesActionPerformed
+    private void mniTablesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniTablesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TablesActionPerformed
+    }//GEN-LAST:event_mniTablesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -126,7 +127,6 @@ public class FrmMenu extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem Tables;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -137,6 +137,7 @@ public class FrmMenu extends javax.swing.JFrame {
     private javax.swing.JMenuItem mniAbourt;
     private javax.swing.JMenuItem mniCreative;
     private javax.swing.JMenuItem mniExit;
+    private javax.swing.JMenuItem mniTables;
     private javax.swing.JMenuItem mniUser;
     // End of variables declaration//GEN-END:variables
 }
